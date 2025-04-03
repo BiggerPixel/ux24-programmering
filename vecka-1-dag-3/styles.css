@@ -23,3 +23,21 @@ main {
   display: inline;
   margin-right: 32px;
 }
+
+.mainMenu a {
+  text-decoration: none;
+}
+
+p {
+  color: red;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1rem;
+  text-decoration: underline;
+  width: 400px;
+  height: 300px;
+  background-color: pink;
+  border: 1px solid blue;
+  border-radius: 32px;
+}
