@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+}
+
+main {
+  padding: 32px;
+}
+
+.mainMenu {
+  padding: 16px 32px;
+  background-color: white;
+}
+
+.mainMenu ul {
+  padding: 0;
+}
+
+.mainMenu li {
+  list-style: none;
+  display: inline;
+  margin-right: 32px;
+}
