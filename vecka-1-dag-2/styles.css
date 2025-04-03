@@ -8,3 +8,36 @@ body {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+.ux24 {
+  color: orange;
+  font-size: 3rem;
+  color: purple;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid black;
+  padding: 24px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+}
