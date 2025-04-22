@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* Här fortsätter vi med formulär-stylingen */
+
+form {
+  border: 1px solid #333333;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 4px;
+  border: none;
+}
+
+#consent-fieldset {
+  flex-direction: row;
+  gap: 8px;
+}
+
+input,
+textarea {
+  padding: 4px 12px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  resize: vertical;
+}
+
+.btn {
+  padding: 4px 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #555555;
+}
+
+.btn-secondary:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #4242ea;
+}
+
+form footer {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}

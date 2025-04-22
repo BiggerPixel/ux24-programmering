@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Min Responsiva Sida</title>
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+  </head>
+  <body>
+    <h1>Hello Forms!</h1>
+
+    <form>
+      <header>
+        <h2>Kontaktformulär</h2>
+        <p>
+          Kul att du är intresserad av att skicka ett kort meddelande och
+          personuppgifter
+        </p>
+      </header>
+
+      <fieldset>
+        <label for="email-input">E-post *</label>
+        <input
+          id="email-input"
+          required
+          type="email"
+          placeholder="name@example.com"
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="name-input">För & Efternamn *</label>
+        <input required id="name-input" type="text" placeholder="John Doe" />
+      </fieldset>
+
+      <fieldset>
+        <label for="message-input">Meddelande *</label>
+        <textarea
+          required
+          id="message-input"
+          placeholder="Här kan du skriva ett kort meddelande..."
+        ></textarea>
+      </fieldset>
+
+      <fieldset id="consent-fieldset">
+        <input id="consent-input" required type="checkbox" />
+        <label for="consent-input"
+          >Jag godkänner att mina uppgifter sparas och behandlas och har läst
+          <a target="_blank" href="https://google.com"> HELA policyn </a>
+        </label>
+      </fieldset>
+
+      <footer>
+        <button class="btn btn-secondary" type="reset">Rensa</button>
+
+        <button class="btn btn-primary" type="submit">Skicka</button>
+      </footer>
+    </form>
+  </body>
+</html>
