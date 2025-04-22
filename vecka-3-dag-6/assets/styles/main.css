@@ -1,0 +1,13 @@
+body {
+  background-color: #f9efef;
+}
+
+#hero-section {
+  background-color: #c79d9d;
+  /* height: calc(100vh - 64px); */
+  height: 60vh;
+}
+
+.text-max {
+  max-width: 55ch;
+}
