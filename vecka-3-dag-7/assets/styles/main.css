@@ -1,0 +1,88 @@
+:root {
+  --brand: #0000ff;
+
+  --canvas: #f5f5dc;
+  --text-primary: var(--brand);
+  --link: var(--brand);
+  --button-brand: var(--brand);
+  --button-bg: #a52a2a;
+  --button-text: #ffffff;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #4d4d07;
+    --text-primary: #cbcbf1;
+    --button-bg: #d3a981;
+    --button-text: #000000;
+  }
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--text-primary);
+  font-size: 3rem;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 8px 16px;
+}
+
+.btn {
+  --button-background: white;
+  --button-color: white;
+  background-color: var(--button-background);
+  color: var(--button-color);
+}
+
+.btn-success {
+  --button-background: green;
+  --button-color: white;
+}
+
+@keyframes myBackground {
+  0% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes buttonAnimation {
+  0% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+body {
+}
+
+button {
+  animation: buttonAnimation alternate 3s;
+}
+
+@media (prefers-reduced-motion) {
+  body {
+    animation: none;
+  }
+
+  button {
+    animation: none;
+  }
+}
